@@ -29,3 +29,8 @@
 - Open Access COVID-19 imaging datasets:[ https://www.eibir.org/covid-19-imaging-datasets/](https://www.eibir.org/covid-19-imaging-datasets/)
 - Free open-source neuroimaging datasets : [https://www.oasis-brains.org/#oasis1](https://www.oasis-brains.org/#oasis1)
 - Medical imaging datasets : [https://www.re3data.org/](https://www.re3data.org/)
+
+# Useful links
+
+- [Checklist for AI in Medical Imaging (CLAIM)](https://pubs.rsna.org/doi/full/10.1148/ryai.2020200029)
+- [The Cancer Imaging Archive: Annotated Data for AI/ML](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=59310412)
