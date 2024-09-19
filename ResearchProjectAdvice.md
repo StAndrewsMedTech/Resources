@@ -26,9 +26,10 @@ Important technical concepts
 ## Literature Review
 
 - Summarise the problem
-- Discuss advantages & Disadvantages of previous approaches to solve the problem
+- Discuss advantages & disadvantages of previous approaches to solve the problem
+- What are the research gaps from the literature?
 
-## Methods : ( justification)
+## Methods : (with justification)
 
 ## Explain and justify your method in detail.
 
