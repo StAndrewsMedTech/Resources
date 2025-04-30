@@ -5,6 +5,7 @@ Welcome to the StAndrewsMedTech Resources repository. This repository contains a
 ## Contents
 
 - [DGX-1 SSH Connection Instructions](DGX1Instructions.md): Step-by-step guide for setting up SSH connections to the DGX-1 system.
+- [University HPC - Hypatia](HypatiaHPCInstructions.md): Step-by-step guide for using the university high-performance computing (HPC) cluster.
 - [Master's Research Advice](MastersAdvice.md): Guidance and tips for conducting research at the Master's level.
 - [Project Resources Guide](ProjectResources.md): A comprehensive list of resources and tools for research projects.
 - [Research Project Advice](ResearchProjectAdvice.md): Advice and best practices for managing and conducting research projects.
