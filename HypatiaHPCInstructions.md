@@ -9,7 +9,7 @@ ssh username@138.251.14.231
 ```
 
 - Replace `username` with your assigned username.
-- Enter your initial password (provided via email). You will be prompted to set a new secure password immediately.
+- Enter your initial password (provided via email). You will be prompted to set a new ten character long password immediately.
   - Password connections will eventually be discontinued in favour of SSH keys. More info on SSH can be found on the [CS wiki](https://wiki.cs.st-andrews.ac.uk/index.php?title=Using_SSH).
 - If this prompt does not appear, reset your password manually using:
 
@@ -36,6 +36,14 @@ passwd
 ```
 
 - Replace `username` with your assigned username.
+
+You can create a convenient link once:
+
+```bash
+ln -s /sharedscratch/$USER ~/scratch
+```
+
+Afterwards simply run `cd ~/scratch` from anywhere.
 
 ---
 
@@ -89,13 +97,31 @@ scancel job_id
 
 # Python Environment Setup
 
-Use Conda or other virtual environment managers to manage Python dependencies efficiently. Apptainer is installed on the HPC and can be activated interactively or in SLURM jobs using:
+### Conda
+
+A shared installer is provided. **Do not install Conda in your home directory**, as that impedes nightly back‑ups.
+
+```bash
+install-conda
+```
+
+This places Conda in your scratch space and initialises your shell. Activate an environment with
+
+```bash
+conda activate <env_name>
+```
+
+### Containers (Apptainer)
+
+Apptainer is available system‑wide:
 
 ```bash
 module load apptainer
 ```
 
-- Once set up, you can activate the environment in job scripts automatically.
+Use containers when reproducibility or complex dependencies are required. Seek out documentation and video-guides where appropriate.
+
+- Once set up, you can activate the environment in SLURM job scripts.
 
 ---
 
