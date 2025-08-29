@@ -134,7 +134,7 @@ Example SLURM script (`some_script.sh`):
 #SBATCH --job-name=python_train_script
 #SBATCH --output=logs/my_job_%j.out
 #SBATCH --error=logs/my_job_%j.err
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu.L40S
 #SBATCH --gres=gpu:1
 #SBATCH --time=12:00:00
 #SBATCH --mem=48G
